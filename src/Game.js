@@ -29,7 +29,7 @@ let myObstacles = [];
 let myScore;
 let ctx;
 
-const startGame = (home) => {
+function startGame(home) {
     home.innerHtml = "";
     player = new component(30, "blue", [GAME_WIDTH / 2, GAME_HEIGHT / 2], [[10, 0], [-5, 5], [-5, -5], [10, 0]]);
     gameArea.start();

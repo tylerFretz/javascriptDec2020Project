@@ -11,12 +11,9 @@
   </style>
 </head>
 
-<body>
+<body onload="startGame('asteroids')">
 <div id="asteroids"></div>
 
-<script src="asteroids\Game.js" type="text/javascript"></script>
-<script>
-  window.onload = startGame(document.getElementById('asteroids'));
-</script>
+<script src="src/Game.js" type="text/javascript"></script>
 </body>
 </html>
